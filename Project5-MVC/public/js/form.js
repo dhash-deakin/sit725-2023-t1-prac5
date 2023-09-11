@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var password = document.getElementById('password').value;
 
       // Send the form data to the server
-      fetch('/submit-form', {
+      fetch('/api/submit-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
